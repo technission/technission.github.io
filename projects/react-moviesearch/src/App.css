@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.App {
+  padding: 1.5rem;
+  background-color: rgb(50, 50, 103);
+}
+
+.search_nav {
+  display: flex;
+  align-items: center;
+  padding-bottom: 1.5rem;
+}
+
+.title {
+  padding-right: 3rem;
+}
+
+.title h1 {
+  color: white;
+}
+
+.search_box input {
+  border: 0;
+  outline: 0;
+  margin-right: 0.2rem;
+  padding: 0.3rem;
+  border-radius: 1rem;
+}
+
+.search_box button {
+  border: 0;
+  outline: 0;
+  background-color: white;
+  padding: 0.3rem;
+  border-radius: 1rem;
+}
